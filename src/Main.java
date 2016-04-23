@@ -17,7 +17,7 @@ public class Main {
     public static int[] f = new int[100];
     public static int[] b = new int[100];
     public static int[] g = new int[100];
-    public static int[] un = new int[100];
+   // public static int[] un = new int[100];
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -94,17 +94,17 @@ public class Main {
 
         if ("футбол".equals(c)) {
             for (int i = 0; i < f.length; i++) {
-                System.out.print(i + 1 + ". " + arr[f[i]].name + " " + arr[f[i]].sname);
+                System.out.print((i + 1) + ". " + arr[f[i]].name + " " + arr[f[i]].sname);
             }
         }
         if ("бокс".equals(c)) {
             for (int i = 0; i < b.length; i++) {
-                System.out.println(i + 1 + ". " + arr[b[i]].name + " " + arr[b[i]].sname);
+                System.out.println((i + 1) + ". " + arr[b[i]].name + " " + arr[b[i]].sname);
             }
         }
         if ("гребля".equals(c)) {
             for (int i = 0; i < g.length; i++) {
-                System.out.println(i + 1 + ". " + arr[g[i]].name + " " + arr[g[i]].sname);
+                System.out.println((i + 1) + ". " + arr[g[i]].name + " " + arr[g[i]].sname);
             }
         }
 

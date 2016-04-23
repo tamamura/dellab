@@ -39,10 +39,10 @@ public class Human {
         }  
         id = i;
         
-        if(this.club.equals("футбол")) Main.f[Main.f.length + 1] = i;
-        else if(this.club.equals("бокс")) Main.b[Main.b.length + 1] = i;
-        else if(this.club.equals("гребля")) Main.g[Main.g.length + 1] = i;
-        else Main.un[Main.un.length + 1] = i;
+        if(club.equals("футбол")) Main.f[Main.f.length + 1] = i;
+        else if(club.equals("бокс")) Main.b[Main.b.length + 1] = i;
+        else if(club.equals("гребля")) Main.g[Main.g.length + 1] = i;
+        //else Main.un[Main.un.length + 1] = i;
     }
     
     public void showInfo(){
